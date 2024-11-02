@@ -9,7 +9,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <nav className="navbar navbar-dark navbar-expand-lg">
-                                <a className="navbar-brand" href="index.html">
+                                <a className="navbar-brand" href="#">
                                     <img src="./assets/images/hals.png" className="img-fluid" alt="logo" />
                                 </a>
                                 <button
