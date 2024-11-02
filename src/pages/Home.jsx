@@ -78,7 +78,7 @@ function Home() {
 
     <div className="section-title">
         <small>HIGHLIGHTS</small>
-        <h3>Features you might love</h3>
+        <h3>Fitur yang mungkin kamu suka</h3>
     </div>
 
 
