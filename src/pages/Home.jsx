@@ -20,7 +20,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <nav className="navbar navbar-dark navbar-expand-lg">
-                                <a className="navbar-brand" href="#">
+                                <a className="navbar-brand" href="https://instagram.com/anitomochi">
                                     <img src="./assets/images/hals.png" className="img-fluid" alt="logo" />
                                 </a>
                                 <button
@@ -50,7 +50,7 @@ function Home() {
                                             <a
                                                 className="nav-link"
                                                 href="http://localhost:3000/mentor"
-                                                target="_blank"
+                                                // target="_blank"
                                                 rel="noopener noreferrer"
                                             >
                                                 MENTOR AI
@@ -154,7 +154,7 @@ function Home() {
             <div className="box-icon"><span className="ti-mobile gradient-fill ti-3x"></span></div>
             <h2>Discover our App</h2>
             <p className="mb-4">Lorem ipsum </p>
-            <a href="#" className="btn btn-primary">Read more</a>
+            <a href="https://instagram.com/anitomochi" className="btn btn-primary">Read more</a>
         </div>
     </div>
     <div className="perspective-phone">
@@ -277,7 +277,7 @@ function Home() {
                         <div className="box-icon"><span className="ti-rocket gradient-fill ti-3x"></span></div>
                         <h2>Launch your App</h2>
                         <p className="mb-4">Lorem ipsum </p>
-                        <a href="#" className="btn btn-primary">Read more</a></div>
+                        <a href="https://instagram.com/anitomochi" className="btn btn-primary">Read more</a></div>
                 </div>
             </div>
 
@@ -430,8 +430,8 @@ function Home() {
             </div>
             <div className="col-lg-6">
                 <div className="social-icons">
-                    <a href="#"><span className="ti-facebook"></span></a>
-                    <a href="#"><span className="ti-twitter-alt"></span></a>
+                    <a href="https://instagram.com/anitomochi"><span className="ti-facebook"></span></a>
+                    <a href="https://instagram.com/anitomochi"><span className="ti-twitter-alt"></span></a>
                     <a href="https://instagram.com/anitomochi"><span className="ti-instagram"></span></a>
                 </div>
             </div>
