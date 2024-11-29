@@ -1,20 +1,71 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";  // Import Link from react-router-dom
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../App.css";
+import Intro from "../components/Intro"; // Make sure the path is correct
+import MDL from "../components/MDL"; // Import the MDL component
+// import MentorAI from '../components/MentorAI'; 
 
 function Home() {
     const [mentorMessage, setMentorMessage] = useState("");
+    const [carouselItems, setCarouselItems] = useState([]);  // Ensure this line exists
+    const [libraryItems, setLibraryItems] = useState([]);
 
     useEffect(() => {
-        // Fetch data dari Mentor AI
+
         fetch("http://localhost:3000/api/mentor")
-        .then((response) => response.json())
-        .then((data) => {
-            setMentorMessage(data.message);
-        })
-        .catch((error) => console.error("Error fetching data:", error));
+            .then((response) => response.json())
+            .then((data) => {
+                setMentorMessage(data.message);
+            })
+            .catch((error) => console.error("Error fetching data:", error));
+
+        fetch("/mentalHealthLibrary.json")
+            .then((response) => response.json())
+            .then((data) => setLibraryItems(data))
+            .catch((error) => console.error("Error fetching data:", error));
+
+        // Fetch carousel data (replace with your API endpoint or JSON file path)
+        fetch("/carouselData.json")
+            .then((response) => response.json())
+            .then((data) => {
+                setCarouselItems(data);  // Update state here
+            })
+            .catch((error) => console.error("Error fetching carousel data:", error));
     }, []);
     
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    };
+
     return (
         <>
+            <div className="section light-bg">
+                <div className="container">
+                    <div className="section-title">
+                        <h3>Our Highlights</h3>
+                    </div>
+                    <Slider {...settings} className="carousel-container">
+                        {carouselItems.map((item) => (
+                            <div key={item.id} className="carousel-slide">
+                                <img src={item.image} alt={item.title} />
+                                <h4>{item.title}</h4>
+                                <p>{item.description}</p>
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+            </div>
+
+            {/* NAV */}
             <div className="nav-menu fixed-top">
                 <div className="container">
                     <div className="row">
@@ -50,20 +101,19 @@ function Home() {
                                             <a
                                                 className="nav-link"
                                                 href="http://localhost:3000/mentor"
-                                                target="_blank"
+                                        
                                                 rel="noopener noreferrer"
                                             >
                                                 MENTOR AI
                                             </a>
-                                        </li>
-
+                                        </li> 
                                         <li className="nav-item">
                                             <a className="nav-link" href="#contact">
-                                                CONTACT
+                                                FAQ
                                             </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a href="login.html" className="btn btn-outline-light my-3 my-sm-0 ml-lg-3">
+                                            <a href="#intro" className="btn btn-outline-light my-3 my-sm-0 ml-lg-3">
                                                 Get Started
                                             </a>
                                         </li>
@@ -74,95 +124,21 @@ function Home() {
                     </div>
                 </div>
             </div>
+            {/* END NAV */}
 
-            <div>
-                <header className="bg-gradient" id="home">
-                    <div className="container mt-5">
-                        <h1>Welcome to HaloSani</h1>
-                        <p className="tagline">
-                            HaloSani is a platform for someone who is concerned about <b>Mental Health</b>
-                        </p>
-                    </div>
-                    <div className="img-holder mt-3">
-                        <img src="./assets/images/samsung.png" alt="phone" className="img-fluid" />
-                    </div>
-                </header>
-            </div>
-            <div className="section light-bg" id="features">
+        {/* INTRO */}
+        <Intro />
 
 
-<div className="container">
-
-    <div className="section-title">
-        <small>HIGHLIGHTS</small>
-        <h3>Fitur yang mungkin kamu suka</h3>
-    </div>
+     
+        {/* END INTRO */}
+        <MDL libraryItems={libraryItems} /> {/* Pass library items as prop */}
 
 
-    <div className="row">
-        <div className="col-12 col-lg-4">
-            <div className="card features">
-                <div className="card-body">
-                    <div className="media">
-                        <span className="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                        <div className="media-body">
-                            <h4 className="card-title">Simple</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-12 col-lg-4">
-            <div className="card features">
-                <div className="card-body">
-                    <div className="media">
-                        <span className="ti-settings gradient-fill ti-3x mr-3"></span>
-                        <div className="media-body">
-                            <h4 className="card-title">Easy to Use</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-12 col-lg-4">
-            <div className="card features">
-                <div className="card-body">
-                    <div className="media">
-                        <span className="ti-lock gradient-fill ti-3x mr-3"></span>
-                        <div className="media-body">
-                            <h4 className="card-title">Secure</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-</div>
 
 
-{/* images */}
-<div className="section">
 
-<div className="container">
-    <div className="row">
-        <div className="col-lg-6 offset-lg-6">
-            <div className="box-icon"><span className="ti-mobile gradient-fill ti-3x"></span></div>
-            <h2>Discover our App</h2>
-            <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
-            <a href="#" className="btn btn-primary">Read more</a>
-        </div>
-    </div>
-    <div className="perspective-phone">
-        <img src="./assets/images/samsung_r.png" alt="perspective phone" className="img-fluid"/>
-    </div>
-</div>
-</div>
-
+           
 {/* end section */}
 
 <div className="section light-bg">
@@ -266,122 +242,6 @@ function Home() {
 
 {/* end section */}
 
-<div className="section">
-
-        <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <img src="./assets/images/samsung_dual.png" alt="dual phone" className="img-fluid"/>
-                </div>
-                <div className="col-md-6 d-flex align-items-center">
-                    <div>
-                        <div className="box-icon"><span className="ti-rocket gradient-fill ti-3x"></span></div>
-                        <h2>Launch your App</h2>
-                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
-                        <a href="#" className="btn btn-primary">Read more</a></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-{/* endsection */}
-<div className="section light-bg">
-    <div className="container">
-        <div className="row">
-            <div className="col-md-8 d-flex align-items-center">
-                <ul className="list-unstyled ui-steps">
-                    <li className="media">
-                        <div className="circle-icon mr-4">1</div>
-                        <div className="media-body">
-                            <h5>Create an Account</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem
-                            </p>
-                        </div>
-                    </li>
-                    <li className="media my-4">
-                        <div className="circle-icon mr-4">2</div>
-                        <div className="media-body">
-                            <h5>Share with friends</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem eveniet
-                            </p>
-                        </div>
-                    </li>
-                    <li className="media">
-                        <div className="circle-icon mr-4">3</div>
-                        <div className="media-body">
-                            <h5>Enjoy your life</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div className="col-md-4">
-                <img src="./assets/images/samsung.png" alt="iphone" className="img-fluid" />
-            </div>
-        </div>
-    </div>
-</div>
-
-{/* end section */}
-<div className="section">
-    <div className="container">
-        <div className="section-title">
-            <small>TESTIMONIALS</small>
-            <h3>What our Customers Say</h3>
-        </div>
-
-        <div className="testimonials owl-carousel">
-            <div className="testimonials-single">
-                <img src="./assets/images/client.png" alt="client" className="client-img" />
-                <blockquote className="blockquote">
-                    Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.
-                </blockquote>
-                <h5 className="mt-4 mb-2">Crystal Gordon</h5>
-                <p className="text-primary">United States</p>
-            </div>
-            <div className="testimonials-single">
-                <img src="./assets/images/client.png" alt="client" className="client-img" />
-                <blockquote className="blockquote">
-                    Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.
-                </blockquote>
-                <h5 className="mt-4 mb-2">Crystal Gordon</h5>
-                <p className="text-primary">United States</p>
-            </div>
-            <div className="testimonials-single">
-                <img src="./assets/images/client.png" alt="client" className="client-img" />
-                <blockquote className="blockquote">
-                    Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.
-                </blockquote>
-                <h5 className="mt-4 mb-2">Crystal Gordon</h5>
-                <p className="text-primary">United States</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-{/* end section */}
-
-<div className="section light-bg" id="gallery">
-    <div className="container">
-        <div className="section-title">
-            <small>GALLERY</small>
-            <h3>App Screenshots</h3>
-        </div>
-
-        <div className="img-gallery owl-carousel owl-theme">
-            <img src="./assets/images/screen1.jpg" alt="screen1" />
-            <img src="./assets/images/screen2.jpg" alt="screen2" />
-            <img src="./assets/images/screen3.jpg" alt="screen3" />
-            <img src="./assets/images/screen1.jpg" alt="screen4" />
-        </div>
-    </div>
-</div>
 
 <div className="section pt-0">
     <div className="container">

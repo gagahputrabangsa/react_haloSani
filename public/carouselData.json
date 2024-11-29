@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Event KEMENKES",
+      "description": "Pentingnya Kesehatan mental remaja",
+      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "title": "Event revolusi mental",
+      "description": "Merevolusi mental bersama dokter john",
+      "image": "https://images.pexels.com/photos/806427/pexels-photo-806427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "title": "Peduli kesehatan mental bersama",
+      "description": "You are not allone",
+      "image": "https://images.pexels.com/photos/2821220/pexels-photo-2821220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+  

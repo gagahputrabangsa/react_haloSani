@@ -1,38 +1,279 @@
-.App {
-  text-align: center;
+/* General Section Styling */
+.intro-section {
+  padding: 80px 15px;
+  background-color: #f8f9fa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.intro-section .highlight {
+  color: #007bff;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.intro-section ul li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.intro-section .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.intro-section .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.intro-section .btn-primary:active {
+  transform: translateY(1px);
+}
+
+/* Image Styling */
+.intro-section .img-holder {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;  /* Ensure the container takes full width */
+  height: 70%; /* Reduce height to make image a little smaller */
+  overflow: hidden;  /* Prevent overflow of the image */
+}
+
+.intro-section .img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the container without being cut off or stretched */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-section .img-holder img:hover {
+  transform: scale(1.03);  /* Slightly reduce the scaling effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments for image container */
+@media (max-width: 992px) {
+  .intro-section .img-holder {
+    height: 60%; /* Further reduce height for medium screens */
+  }
+
+  .intro-section .img-holder img {
+    width: 100%;
+    height: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 768px) {
+  .intro-section .img-holder {
+    height: 50%; /* Reduce the image height for smaller screens */
+  }
+
+  .intro-section .img-holder img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-section .img-holder {
+    height: 40%; /* Further reduce height for very small screens */
+  }
+
+  .intro-section .img-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) {
+  .intro-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .intro-section .btn-primary {
+    font-size: 1.1rem;
+    padding: 10px 25px;
+  }
+
+  .intro-section .img-holder img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-section h1 {
+    font-size: 2rem;
+  }
+
+  .intro-section p {
+    font-size: 1.1rem;
+  }
+
+  .intro-section ul li {
+    font-size: 1rem;
+  }
+
+  .intro-section .btn-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-section {
+    padding: 60px 10px;
+  }
+
+  .intro-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro-section p {
+    font-size: 1rem;
+  }
+
+  .intro-section .btn-primary {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  .intro-section .col-lg-6 {
+    text-align: center;
+  }
+
+  .intro-section .col-lg-6 img {
+    max-width: 100%;
+  }
+}
+
+
+
+
+.carousel-container {
+  width: 80%; /* Mengatur lebar carousel (ubah sesuai kebutuhan) */
+  margin: 0 auto; /* Pusatkan carousel */
+  max-width: 600px; /* Batas maksimal ukuran carousel */
+}
+
+.carousel-slide img {
+  width: 100%; /* Pastikan gambar sesuai dengan ukuran slide */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+  border-radius: 10px; /* Memberikan efek sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan */
+}
+
+.carousel-slide h4 {
+  text-align: center; /* Memusatkan judul */
+  font-size: 1.2rem; /* Ukuran font lebih kecil */
+  margin-top: 10px;
+}
+
+.carousel-slide p {
+  text-align: center; /* Memusatkan deskripsi */
+  font-size: 1rem;
+  color: #555; /* Warna teks lebih lembut */
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .carousel-container {
+      width: 90%; /* Perbesar lebar carousel pada layar kecil */
+  }
+
+  .carousel-slide h4 {
+      font-size: 1rem; /* Kecilkan ukuran font pada layar kecil */
+  }
+
+  .carousel-slide p {
+      font-size: 0.9rem;
+  }
+}
+
+/* MDL Section Styling */
+.mdl-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.mdl-section .section-title h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.mdl-section .features {
+  margin-bottom: 30px;
+}
+
+.mdl-section .features .media {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.mdl-section .features img {
+  max-width: 100px;
+  margin-right: 15px;
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.mdl-section .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.mdl-section .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .mdl-section .features {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .mdl-section .features .media {
+    text-align: center;
+  }
+
+  .mdl-section .features img {
+    margin: 0 0 10px;
   }
 }

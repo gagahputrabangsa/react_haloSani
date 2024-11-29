@@ -1,18 +1,15 @@
-import React from 'react'
-import Home from './pages/Home'
-import Mentor from './pages/Mentor'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
-    return(
+    return (
         <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/mentor' element={<Mentor/>}/>
-        </Routes>
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
         </BrowserRouter>
-    )
-    
+    );
 }
-export default App
+
+export default App;
