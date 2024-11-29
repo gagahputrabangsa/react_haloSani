@@ -1,7 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function Home() {
-   
+    const [mentorMessage, setMentorMessage] = useState("");
+
+    useEffect(() => {
+        // Fetch data dari Mentor AI
+        fetch("http://localhost:3000/api/mentor")
+        .then((response) => response.json())
+        .then((data) => {
+            setMentorMessage(data.message);
+        })
+        .catch((error) => console.error("Error fetching data:", error));
+    }, []);
+    
     return (
         <>
             <div className="nav-menu fixed-top">
@@ -36,10 +47,16 @@ function Home() {
                                             </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#gallery">
+                                            <a
+                                                className="nav-link"
+                                                href="http://localhost:3000/mentor"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
                                                 MENTOR AI
                                             </a>
                                         </li>
+
                                         <li className="nav-item">
                                             <a className="nav-link" href="#contact">
                                                 CONTACT
