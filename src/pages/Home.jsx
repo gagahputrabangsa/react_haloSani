@@ -46,20 +46,6 @@ function Home() {
         autoplaySpeed: 3000,
     };
 
-
-function Home() {
-    const [mentorMessage, setMentorMessage] = useState("");
-
-    useEffect(() => {
-        // Fetch data dari Mentor AI
-        fetch("http://localhost:3000/api/mentor")
-        .then((response) => response.json())
-        .then((data) => {
-            setMentorMessage(data.message);
-        })
-        .catch((error) => console.error("Error fetching data:", error));
-    }, []);
-    
     return (
         <>
             <div className="section light-bg">
@@ -85,7 +71,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <nav className="navbar navbar-dark navbar-expand-lg">
-                                <a className="navbar-brand" href="https://instagram.com/anitomochi">
+                                <a className="navbar-brand" href="#">
                                     <img src="./assets/images/hals.png" className="img-fluid" alt="logo" />
                                 </a>
                                 <button
@@ -116,14 +102,11 @@ function Home() {
                                                 className="nav-link"
                                                 href="http://localhost:3000/mentor"
                                         
-                                                // target="_blank"
                                                 rel="noopener noreferrer"
                                             >
                                                 MENTOR AI
                                             </a>
                                         </li> 
-                                        </li>
-
                                         <li className="nav-item">
                                             <a className="nav-link" href="#contact">
                                                 FAQ
@@ -152,69 +135,8 @@ function Home() {
         <MDL libraryItems={libraryItems} /> {/* Pass library items as prop */}
 
 
-    <div className="row">
-        <div className="col-12 col-lg-4">
-            <div className="card features">
-                <div className="card-body">
-                    <div className="media">
-                        <span className="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                        <div className="media-body">
-                            <h4 className="card-title">Simple</h4>
-                            <p className="card-text">Lorem ipsum dolor sit </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-12 col-lg-4">
-            <div className="card features">
-                <div className="card-body">
-                    <div className="media">
-                        <span className="ti-settings gradient-fill ti-3x mr-3"></span>
-                        <div className="media-body">
-                            <h4 className="card-title">Easy to Use</h4>
-                            <p className="card-text">Lorem ipsum dolor sit </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-12 col-lg-4">
-            <div className="card features">
-                <div className="card-body">
-                    <div className="media">
-                        <span className="ti-lock gradient-fill ti-3x mr-3"></span>
-                        <div className="media-body">
-                            <h4 className="card-title">Secure</h4>
-                            <p className="card-text">Lorem ipsum dolor sit </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-</div>
 
 
-{/* images */}
-<div className="section">
-
-<div className="container">
-    <div className="row">
-        <div className="col-lg-6 offset-lg-6">
-            <div className="box-icon"><span className="ti-mobile gradient-fill ti-3x"></span></div>
-            <h2>Discover our App</h2>
-            <p className="mb-4">Lorem ipsum </p>
-            <a href="https://instagram.com/anitomochi" className="btn btn-primary">Read more</a>
-        </div>
-    </div>
-    <div className="perspective-phone">
-        <img src="./assets/images/samsung_r.png" alt="perspective phone" className="img-fluid"/>
-    </div>
-</div>
-</div>
 
            
 {/* end section */}
@@ -257,10 +179,11 @@ function Home() {
                         <h2>Curious about Mental Health?</h2>
                         <p className="lead">Uniquely</p>
                         <p>
-                            Lorem ipsum dolor sit amet,
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh.
+                            Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
                         </p>
                         <p>
-                            malesuada faucibus augue aliquet..
+                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
                         </p>
                     </div>
                 </div>
@@ -272,10 +195,10 @@ function Home() {
                         <h2>Want to do some Research?</h2>
                         <p className="lead">Uniquely</p>
                         <p>
-                            Lorem ipsum dolor sit amet, r,
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
                         </p>
                         <p>
-                            malesuada faucibus augue aliquet..
+                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
                         </p>
                     </div>
                     <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
@@ -289,10 +212,10 @@ function Home() {
                         <h2>Have interest in their activity?</h2>
                         <p className="lead">Uniquely</p>
                         <p>
-                            Lorem ipsum dolor sit amet, r,
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
                         </p>
                         <p>
-                            malesuada faucibus augue aliquet..
+                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
                         </p>
                     </div>
                 </div>
@@ -304,10 +227,10 @@ function Home() {
                         <h2>Live chat when you need it</h2>
                         <p className="lead">Uniquely</p>
                         <p>
-                            Lorem ipsum dolor sit amet, r,
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
                         </p>
                         <p>
-                            malesuada faucibus augue aliquet..
+                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
                         </p>
                     </div>
                     <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
@@ -320,123 +243,6 @@ function Home() {
 {/* end section */}
 
 
-<div className="section">
-
-        <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <img src="./assets/images/samsung_dual.png" alt="dual phone" className="img-fluid"/>
-                </div>
-                <div className="col-md-6 d-flex align-items-center">
-                    <div>
-                        <div className="box-icon"><span className="ti-rocket gradient-fill ti-3x"></span></div>
-                        <h2>Launch your App</h2>
-                        <p className="mb-4">Lorem ipsum </p>
-                        <a href="https://instagram.com/anitomochi" className="btn btn-primary">Read more</a></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-{/* endsection */}
-<div className="section light-bg">
-    <div className="container">
-        <div className="row">
-            <div className="col-md-8 d-flex align-items-center">
-                <ul className="list-unstyled ui-steps">
-                    <li className="media">
-                        <div className="circle-icon mr-4">1</div>
-                        <div className="media-body">
-                            <h5>Create an Account</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet,m
-                            </p>
-                        </div>
-                    </li>
-                    <li className="media my-4">
-                        <div className="circle-icon mr-4">2</div>
-                        <div className="media-body">
-                            <h5>Share with friends</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet,m eveniet
-                            </p>
-                        </div>
-                    </li>
-                    <li className="media">
-                        <div className="circle-icon mr-4">3</div>
-                        <div className="media-body">
-                            <h5>Enjoy your life</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet,m
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div className="col-md-4">
-                <img src="./assets/images/samsung.png" alt="iphone" className="img-fluid" />
-            </div>
-        </div>
-    </div>
-</div>
-
-{/* end section */}
-<div className="section">
-    <div className="container">
-        <div className="section-title">
-            <small>TESTIMONIALS</small>
-            <h3>What our Customers Say</h3>
-        </div>
-
-        <div className="testimonials owl-carousel">
-            <div className="testimonials-single">
-                <img src="./assets/images/client.png" alt="client" className="client-img" />
-                <blockquote className="blockquote">
-                    Uniquely streamline highly efficient scenarios.
-                </blockquote>
-                <h5 className="mt-4 mb-2">Crystal Gordon</h5>
-                <p className="text-primary">United States</p>
-            </div>
-            <div className="testimonials-single">
-                <img src="./assets/images/client.png" alt="client" className="client-img" />
-                <blockquote className="blockquote">
-                    Uniquely streamline highly efficient scenarios.
-                </blockquote>
-                <h5 className="mt-4 mb-2">Crystal Gordon</h5>
-                <p className="text-primary">United States</p>
-            </div>
-            <div className="testimonials-single">
-                <img src="./assets/images/client.png" alt="client" className="client-img" />
-                <blockquote className="blockquote">
-                    Uniquely streamline highly efficient scenarios.
-                </blockquote>
-                <h5 className="mt-4 mb-2">Crystal Gordon</h5>
-                <p className="text-primary">United States</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-{/* end section */}
-
-<div className="section light-bg" id="gallery">
-    <div className="container">
-        <div className="section-title">
-            <small>GALLERY</small>
-            <h3>App Screenshots</h3>
-        </div>
-
-        <div className="img-gallery owl-carousel owl-theme">
-            <img src="./assets/images/screen1.jpg" alt="screen1" />
-            <img src="./assets/images/screen2.jpg" alt="screen2" />
-            <img src="./assets/images/screen3.jpg" alt="screen3" />
-            <img src="./assets/images/screen1.jpg" alt="screen4" />
-        </div>
-    </div>
-</div>
-
 <div className="section pt-0">
     <div className="container">
         <div className="section-title">
@@ -447,15 +253,15 @@ function Home() {
         <div className="row pt-4">
             <div className="col-md-6">
                 <h4 className="mb-3">Apakah aplikasi ini gratis?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor.</p>
+                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
                 <h4 className="mb-3">Apa sebenarnya tujuan aplikasi ini?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor.</p>
+                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
             </div>
             <div className="col-md-6">
                 <h4 className="mb-3">Apakah bisa minta resep obat disini?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor.</p>
+                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
                 <h4 className="mb-3">Apakah HaloSani ini buatan mahasiswa?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor.</p>
+                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
             </div>
         </div>
     </div>
@@ -485,8 +291,8 @@ function Home() {
             </div>
             <div className="col-lg-6">
                 <div className="social-icons">
-                    <a href="https://instagram.com/anitomochi"><span className="ti-facebook"></span></a>
-                    <a href="https://instagram.com/anitomochi"><span className="ti-twitter-alt"></span></a>
+                    <a href="#"><span className="ti-facebook"></span></a>
+                    <a href="#"><span className="ti-twitter-alt"></span></a>
                     <a href="https://instagram.com/anitomochi"><span className="ti-instagram"></span></a>
                 </div>
             </div>
