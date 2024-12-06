@@ -49,19 +49,22 @@ function Home() {
     return (
         <>
             <div className="section light-bg">
-                <div className="container">
+                <div className="container"> 
                     <div className="section-title">
-                        <h3>Our Highlights</h3>
+                        <h3>Event</h3>
                     </div>
                     <Slider {...settings} className="carousel-container">
                         {carouselItems.map((item) => (
                             <div key={item.id} className="carousel-slide">
-                                <img src={item.image} alt={item.title} />
-                                <h4>{item.title}</h4>
-                                <p>{item.description}</p>
+                                <a href={item.href} target="_blank" rel="noopener noreferrer">
+                                    <img src={item.image} alt={item.title} />
+                                </a>
+                                    <h4>{item.title}</h4>
+                                    <p>{item.description}</p>
                             </div>
                         ))}
                     </Slider>
+
                 </div>
             </div>
 
