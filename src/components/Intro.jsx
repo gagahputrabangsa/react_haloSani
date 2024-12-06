@@ -38,6 +38,7 @@ function Intro() {
         <div className="img-holder">
           <img
             src="./assets/images/HALOSANI.png"
+            
             className="img-fluid"
             alt="Mental Health Support"
           />
