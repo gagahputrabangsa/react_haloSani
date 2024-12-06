@@ -256,17 +256,18 @@ function Home() {
         <div className="row pt-4">
             <div className="col-md-6">
                 <h4 className="mb-3">Apakah aplikasi ini gratis?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
+                <p className="light-font mb-5">Ya, aplikasi ini sepenuhnya gratis untuk seluruh masyarakat Indonesia. Fokus utamanya adalah memberikan edukasi terkait kesehatan mental secara mudah dan dapat diakses oleh semua kalangan.</p>
                 <h4 className="mb-3">Apa sebenarnya tujuan aplikasi ini?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
+                <p className="light-font mb-5">Tujuan utama HaloSani adalah untuk memberikan edukasi kesehatan mental serta membantu pengguna dalam melakukan diagnosa awal. Aplikasi ini dirancang untuk menjadi sumber informasi yang terpercaya dan mudah dipahami.</p>
             </div>
             <div className="col-md-6">
-                <h4 className="mb-3">Apakah bisa minta resep obat disini?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
+                <h4 className="mb-3">Apakah bisa minta resep obat di sini?</h4>
+                <p className="light-font mb-5">Tidak, HaloSani tidak menyediakan layanan untuk meminta resep obat. Aplikasi ini lebih berfokus pada edukasi dan dukungan untuk diagnosa awal saja, bukan untuk pengobatan medis.</p>
                 <h4 className="mb-3">Apakah HaloSani ini buatan mahasiswa?</h4>
-                <p className="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante.</p>
+                <p className="light-font mb-5">Ya, HaloSani adalah aplikasi yang dikembangkan oleh mahasiswa Universitas Trisakti dengan tujuan memberikan kontribusi positif dalam bidang kesehatan mental di Indonesia.</p>
             </div>
         </div>
+
     </div>
 </div>
 
