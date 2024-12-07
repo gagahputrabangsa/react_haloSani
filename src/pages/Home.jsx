@@ -36,6 +36,50 @@ function Home() {
             .catch((error) => console.error("Error fetching carousel data:", error));
     }, []);
     
+    // Line trail logic
+    useEffect(() => {
+        const lineContainer = document.createElement("div");
+        lineContainer.id = "line-container";
+        document.body.appendChild(lineContainer);
+
+        let lastX = null;
+        let lastY = null;
+
+        const handleMouseMove = (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+
+            if (lastX !== null && lastY !== null) {
+                const deltaX = x - lastX;
+                const deltaY = y - lastY;
+                const length = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+                const angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
+
+                const line = document.createElement("div");
+                line.className = "line";
+                line.style.width = `${length}px`;
+                line.style.left = `${lastX}px`;
+                line.style.top = `${lastY}px`;
+                line.style.transform = `rotate(${angle}deg)`;
+                lineContainer.appendChild(line);
+
+                setTimeout(() => {
+                    line.remove();
+                }, 500);
+            }
+
+            lastX = x;
+            lastY = y;
+        };
+
+        document.addEventListener("mousemove", handleMouseMove);
+
+        return () => {
+            document.body.removeChild(lineContainer);
+            document.removeEventListener("mousemove", handleMouseMove);
+        };
+    }, []);
+
     const settings = {
         dots: true,
         infinite: true,

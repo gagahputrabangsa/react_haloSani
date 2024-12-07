@@ -1,13 +1,3 @@
-/*
-
-Style   : MobApp Script JS
-Version : 1.0
-Author  : Surjith S M
-URI     : https://surjithctly.in/
-
-Copyright © All rights Reserved 
-
-*/
 const chatBox = document.getElementById('chatango-box');
 const messageIcon = document.getElementById('message-icon');
 const closeButton = document.getElementById('close-btn');
