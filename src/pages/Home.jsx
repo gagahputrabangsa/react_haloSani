@@ -224,11 +224,10 @@ function Home() {
                     <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                     <div>
                         <h2>Tentang Mentor AI?</h2>
+                        <p>Mentor AI adalah fitur berbasis kecerdasan buatan yang menggunakan teknologi Large Language Model (LLM) untuk memberikan dukungan, wawasan, dan saran terkait kesehatan mental. Model LLM dirancang untuk memahami, memproses, dan menghasilkan respons berbasis teks yang mendekati kemampuan komunikasi manusia. </p>
 
                             <ol>
-                                <li>Mentor AI adalah fitur berbasis kecerdasan buatan yang menggunakan teknologi Large Language Model (LLM) untuk memberikan dukungan, wawasan, dan saran terkait kesehatan mental. Model LLM dirancang untuk memahami, memproses, dan menghasilkan respons berbasis teks yang mendekati kemampuan komunikasi manusia.</li>
-                                <li>Manfaat Mentor AI:</li>
-                                <li></li>
+                                <br/>
                                 <li>Aksesibilitas 24/7: Mentor AI tersedia kapan saja, memberikan bantuan instan tanpa batasan waktu atau lokasi.</li>
                                 <li>Privasi Terjamin: Pengguna dapat berbagi pengalaman mereka secara anonim, tanpa khawatir privasi terganggu.</li>
                                 <li>Berbasis Bukti: Model LLM dapat diprogram untuk memberikan informasi yang valid dan akurat, menghindari self-diagnosis yang berbahaya.</li>
