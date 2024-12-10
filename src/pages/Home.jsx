@@ -191,7 +191,7 @@ function Home() {
 <div className="section light-bg">
     <div className="container">
         <div className="section-title">
-            <small>FEATURES</small>
+            <small>About Our FEATURES</small>
             <h3>Do more with our app</h3>
         </div>
 
@@ -223,14 +223,19 @@ function Home() {
                 <div className="d-flex flex-column flex-lg-row">
                     <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                     <div>
-                        <h2>Curious about Mental Health?</h2>
-                        <p className="lead">Uniquely</p>
+                        <h2>Tentang Mentor AI?</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh.
-                            Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
+                        Mentor AI adalah fitur berbasis kecerdasan buatan yang menggunakan teknologi Large Language Model (LLM) untuk memberikan dukungan, wawasan, dan saran terkait kesehatan mental. Model LLM dirancang untuk memahami, memproses, dan menghasilkan respons berbasis teks yang mendekati kemampuan komunikasi manusia.
                         </p>
                         <p>
-                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
+                        Manfaat Mentor AI:
+                        1. Aksesibilitas 24/7: Mentor AI tersedia kapan saja, memberikan bantuan instan tanpa batasan waktu atau lokasi.
+
+                        2. Privasi Terjamin: Pengguna dapat berbagi pengalaman mereka secara anonim, tanpa khawatir privasi terganggu.
+
+                        3. Berbasis Bukti: Model LLM dapat diprogram untuk memberikan informasi yang valid dan akurat, menghindari self-diagnosis yang berbahaya.
+
+                        4. Peningkatan Literasi Mental: Mentor AI membantu meningkatkan pemahaman pengguna tentang kesehatan mental dengan menjelaskan konsep secara sederhana namun informatif.
                         </p>
                     </div>
                 </div>
