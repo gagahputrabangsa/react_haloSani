@@ -229,6 +229,7 @@ function Home() {
                         </p>
                         <p>Manfaat Mentor AI:</p>
                             <ol>
+                                <li></li>
                                 <li>Aksesibilitas 24/7: Mentor AI tersedia kapan saja, memberikan bantuan instan tanpa batasan waktu atau lokasi.</li>
                                 <li>Privasi Terjamin: Pengguna dapat berbagi pengalaman mereka secara anonim, tanpa khawatir privasi terganggu.</li>
                                 <li>Berbasis Bukti: Model LLM dapat diprogram untuk memberikan informasi yang valid dan akurat, menghindari self-diagnosis yang berbahaya.</li>
