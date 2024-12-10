@@ -227,13 +227,14 @@ function Home() {
                         <p>
                         Mentor AI adalah fitur berbasis kecerdasan buatan yang menggunakan teknologi Large Language Model (LLM) untuk memberikan dukungan, wawasan, dan saran terkait kesehatan mental. Model LLM dirancang untuk memahami, memproses, dan menghasilkan respons berbasis teks yang mendekati kemampuan komunikasi manusia.
                         </p>
-                        <p>
-                        Manfaat Mentor AI:
-                        1. Aksesibilitas 24/7: Mentor AI tersedia kapan saja, memberikan bantuan instan tanpa batasan waktu atau lokasi.<br></br>
-                        2. Privasi Terjamin: Pengguna dapat berbagi pengalaman mereka secara anonim, tanpa khawatir privasi terganggu.<br></br>
-                        3. Berbasis Bukti: Model LLM dapat diprogram untuk memberikan informasi yang valid dan akurat, menghindari self-diagnosis yang berbahaya.<br></br>
-                        4. Peningkatan Literasi Mental: Mentor AI membantu meningkatkan pemahaman pengguna tentang kesehatan mental dengan menjelaskan konsep secara sederhana namun informatif.
-                        </p>
+                        <p>Manfaat Mentor AI:</p>
+                            <ol>
+                                <li>Aksesibilitas 24/7: Mentor AI tersedia kapan saja, memberikan bantuan instan tanpa batasan waktu atau lokasi.</li>
+                                <li>Privasi Terjamin: Pengguna dapat berbagi pengalaman mereka secara anonim, tanpa khawatir privasi terganggu.</li>
+                                <li>Berbasis Bukti: Model LLM dapat diprogram untuk memberikan informasi yang valid dan akurat, menghindari self-diagnosis yang berbahaya.</li>
+                                <li>Peningkatan Literasi Mental: Mentor AI membantu meningkatkan pemahaman pengguna tentang kesehatan mental dengan menjelaskan konsep secara sederhana namun informatif.</li>
+                            </ol>
+
                     </div>
                 </div>
             </div>
