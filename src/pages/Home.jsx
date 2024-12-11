@@ -221,7 +221,7 @@ function Home() {
         <div className="tab-content">
             <div className="tab-pane fade show active" id="communication">
                 <div className="d-flex flex-column flex-lg-row">
-                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                     <div>
                         <h2>Tentang Mentor AI?</h2>
                         <p>Mentor AI adalah fitur berbasis kecerdasan buatan yang menggunakan teknologi Large Language Model (LLM) untuk memberikan dukungan, wawasan, dan saran terkait kesehatan mental. Model LLM dirancang untuk memahami, memproses, dan menghasilkan respons berbasis teks yang mendekati kemampuan komunikasi manusia. </p>
@@ -252,13 +252,13 @@ function Home() {
                             </ol>
 
                     </div>
-                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                 </div>
             </div>
 
             <div className="tab-pane fade" id="messages">
                 <div className="d-flex flex-column flex-lg-row">
-                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                     <div>
                     <h2>Event</h2>
                         <p>Fitur Event dalam aplikasi HaloSani dirancang untuk mempermudah pengguna mengetahui dan mengikuti berbagai acara yang berkaitan dengan kesehatan mental. Dengan fitur ini, pengguna dapat tetap terhubung dengan komunitas, memperluas wawasan, serta mendapatkan dukungan langsung melalui acara yang relevan.</p>
@@ -288,7 +288,7 @@ function Home() {
                             </ol>
 
                     </div>
-                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                 </div>
             </div>
         </div>
