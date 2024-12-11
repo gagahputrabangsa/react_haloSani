@@ -221,7 +221,7 @@ function Home() {
         <div className="tab-content">
             <div className="tab-pane fade show active" id="communication">
                 <div className="d-flex flex-column flex-lg-row">
-                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                     <div>
                         <h2>Tentang Mentor AI?</h2>
                         <p>Mentor AI adalah fitur berbasis kecerdasan buatan yang menggunakan teknologi Large Language Model (LLM) untuk memberikan dukungan, wawasan, dan saran terkait kesehatan mental. Model LLM dirancang untuk memahami, memproses, dan menghasilkan respons berbasis teks yang mendekati kemampuan komunikasi manusia. </p>
@@ -241,31 +241,35 @@ function Home() {
             <div className="tab-pane fade" id="schedule">
                 <div className="d-flex flex-column flex-lg-row">
                     <div>
-                        <h2>Want to do some Research?</h2>
-                        <p className="lead">Uniquely</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                        </p>
-                        <p>
-                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                        </p>
+                    <h2>Mental Health Disorder Library</h2>
+                        <p>Fitur eBook dalam aplikasi HaloSani dirancang untuk memberikan akses kepada pengguna ke berbagai sumber informasi berkualitas yang relevan dengan kesehatan mental. Fitur ini memungkinkan pengguna untuk memperluas wawasan mereka, mendukung penelitian, dan meningkatkan pemahaman mereka tentang berbagai topik kesehatan mental.</p>
+
+                            <ol>
+                                <br/>
+                                <li>Akses Mudah ke Materi Berkualitas dimana Pengguna dapat mengakses koleksi eBook yang tersedia kapan saja dan di mana saja melalui aplikasi. Materi yang disediakan mencakup berbagai topik seperti pengelolaan stres, kesehatan mental anak, dan teknik mindfulness.</li>
+                                <li>Tampilan yang Responsif dan User-Friendly dimana Halaman eBook dirancang dengan antarmuka modern dan responsif, membuat pengalaman membaca menjadi nyaman, baik di perangkat seluler maupun desktop. Gambar ilustratif dan desain profesional turut memperkaya pengalaman pengguna.</li>
+                                <li>Sumber untuk Penelitian dan Pembelajaran Konten eBook dirancang untuk mendukung mereka yang ingin melakukan penelitian atau sekadar memahami lebih dalam tentang topik kesehatan mental. Dengan koleksi materi dari berbagai pakar, fitur ini menjadi salah satu alat yang sangat bermanfaat bagi pelajar dan profesional.</li>
+                            </ol>
+
                     </div>
-                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                 </div>
             </div>
 
             <div className="tab-pane fade" id="messages">
                 <div className="d-flex flex-column flex-lg-row">
-                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                     <div>
-                        <h2>Have interest in their activity?</h2>
-                        <p className="lead">Uniquely</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                        </p>
-                        <p>
-                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                        </p>
+                    <h2>Event</h2>
+                        <p>Fitur Event dalam aplikasi HaloSani dirancang untuk mempermudah pengguna mengetahui dan mengikuti berbagai acara yang berkaitan dengan kesehatan mental. Dengan fitur ini, pengguna dapat tetap terhubung dengan komunitas, memperluas wawasan, serta mendapatkan dukungan langsung melalui acara yang relevan.</p>
+
+                            <ol>
+                                <br/>
+                                <li>Informasi Terpusat dan Mudah Diakses Pengguna dapat melihat jadwal acara kesehatan mental seperti seminar, lokakarya, kelas mindfulness, atau pelatihan secara langsung melalui aplikasi, tanpa perlu mencari informasi di berbagai platform.</li>
+                                <li>Rincian Acara yang Lengkap Setiap event dilengkapi dengan informasi penting seperti tanggal, waktu, lokasi (online/offline), deskripsi acara, narasumber, dan cara pendaftaran, sehingga pengguna dapat merencanakan keikutsertaan dengan mudah.</li>
+                                <li>Meningkatkan Keterlibatan dalam Komunitas Dengan menghadiri acara, pengguna dapat bertemu dengan sesama individu yang peduli terhadap kesehatan mental, menjalin relasi, dan berbagi pengalaman dalam suasana yang mendukung dan inklusif.</li>
+                            </ol>
+
                     </div>
                 </div>
             </div>
@@ -273,16 +277,18 @@ function Home() {
             <div className="tab-pane fade" id="livechat">
                 <div className="d-flex flex-column flex-lg-row">
                     <div>
-                        <h2>Live chat when you need it</h2>
-                        <p className="lead">Uniquely</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                        </p>
-                        <p>
-                            malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                        </p>
+                    <h2>Live Chat Community</h2>
+                        <p>Fitur Live Chat Community dalam aplikasi HaloSani dirancang untuk menciptakan ruang interaksi yang inklusif dan mendukung, di mana pengguna dapat berbagi pengalaman, bertanya, dan mendapatkan motivasi dari komunitas yang peduli terhadap kesehatan mental.</p>
+
+                            <ol>
+                                <br/>
+                                <li>Interaksi Langsung dengan Komunitas Pengguna dapat berkomunikasi secara langsung dengan individu lain yang memiliki minat serupa terkait kesehatan mental. Diskusi dapat mencakup berbagai topik, mulai dari tips manajemen stres hingga berbagi cerita inspiratif.</li>
+                                <li>Berbagi dan Mendapatkan Dukungan Emosional Dalam komunitas ini, pengguna dapat berbagi pengalaman pribadi, mendengarkan cerita orang lain, dan saling memberikan dukungan moral yang sangat dibutuhkan, terutama bagi mereka yang mungkin merasa kesepian atau terisolasi.</li>
+                                <li>Kolaborasi dengan Profesional Moderator atau konselor profesional juga dapat bergabung dalam diskusi tertentu untuk memberikan panduan atau menjawab pertanyaan, sehingga pengguna mendapatkan wawasan yang valid dan dapat dipercaya.</li>
+                            </ol>
+
                     </div>
-                    <img src="./assets/images/graphic.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
+                    <img src="./assets/images/HALO SANI-left.png" alt="graphic" className="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" />
                 </div>
             </div>
         </div>
