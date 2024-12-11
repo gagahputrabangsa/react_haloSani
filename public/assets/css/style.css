@@ -651,8 +651,8 @@ header {
     position: fixed;
     bottom: 70px; /* Adjust to fit close button */
     right: 10px;
-    width: 225px;
-    height: 286px;
+    width: 550px;
+    height: 572px;
     z-index: 1000;
     display: none; /* Initially hidden */
     border: 1px solid #ccc;
