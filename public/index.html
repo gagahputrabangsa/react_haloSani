@@ -39,12 +39,30 @@
     <img id="message-icon" src="./assets/images/mesage.png" alt="Message Icon">
 
     <!-- Chatango box -->
-    <div id="chatango-box">
-        <button id="close-btn">X</button>
-        <script id="cid0020000388060766170" data-cfasync="false" async src="https://st.chatango.com/js/gz/emb.js" style="width: 225px;height: 286px;">
-            {"handle":"halosanibox","arch":"js","styles":{"a":"000066","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000066","l":"000066","m":"000066","n":"FFFFFF","p":"10","q":"000066","r":100,"fwtickm":1}}
-        </script>
-    </div>
+<div id="chatango-box">
+  <button id="close-btn" onclick="hideChat()">X</button>
+  <script id="cid0020000388060766170" data-cfasync="false" async src="https://st.chatango.com/js/gz/emb.js">
+      {
+          "handle": "halosanibox",
+          "arch": "js",
+          "styles": {
+              "a": "000066",
+              "b": 100,
+              "c": "FFFFFF",
+              "d": "FFFFFF",
+              "k": "000066",
+              "l": "000066",
+              "m": "000066",
+              "n": "FFFFFF",
+              "p": "10",
+              "q": "000066",
+              "r": 100,
+              "fwtickm": 1
+          }
+      }
+  </script>
+</div>
+
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- Plugins JS -->
