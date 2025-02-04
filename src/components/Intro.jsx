@@ -10,11 +10,9 @@ function Intro() {
       <div className="col-lg-6 order-lg-1 order-2">
         <h1>Welcome to <span className="highlight">HaloSani</span> - Your Mental Health Support Platform</h1>
         <p>
-          In today’s fast-paced world, mental health has become a crucial aspect of overall well-being.
-          At <strong>HaloSani</strong>, we understand the challenges individuals face in managing mental health,
-          and we are here to provide a supportive and accessible environment. Whether you're dealing with stress,
-          anxiety, depression, or any other mental health issues, <strong>HaloSani</strong> is your reliable companion
-          on the journey to better mental health.
+        Di dunia yang serba cepat saat ini, kesehatan mental telah menjadi aspek penting dari kesejahteraan keseluruhan.
+        <strong>HaloSani</strong>,kami memahami tantangan yang dihadapi individu dalam mengelola kesehatan mental, dan kami hadir untuk menyediakan lingkungan yang suportif dan mudah diakses. Baik Anda berurusan dengan stres, kecemasan, depresi, atau masalah kesehatan mental lainnya,
+        <strong>HaloSani</strong> adalah teman terpercaya Anda dalam perjalanan menuju kesehatan mental yang lebih baik.
         </p>
         <p>
           <strong>HaloSani</strong> offers a variety of tools and resources to help you stay informed and supported:
