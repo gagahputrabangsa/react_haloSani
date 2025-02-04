@@ -18,15 +18,15 @@ function Intro() {
           <strong>HaloSani</strong>menyediakan berbagai alat dan sumber daya untuk membantu Anda tetap terinformasi dan didukung:
         </p>
         <ul>
-          <li><strong>AI-based NLP Chatbot:</strong> Konsultasikan dengan chatbot berbasis AI yang dapat memberikan dukungan dan saran instan untuk masalah kesehatan mental Anda.</li>
-          <li><strong>Mental Health Disorder Library:</strong> Akses perpustakaan lengkap sumber daya kesehatan mental, termasuk makalah penelitian, artikel, dan PDF untuk membantu
+          <li><strong>Chatbot NLP berbasis AI:</strong> Konsultasikan dengan chatbot berbasis AI yang dapat memberikan dukungan dan saran instan untuk masalah kesehatan mental Anda.</li>
+          <li><strong>Perpustakaan Kesehatan Mental:</strong> Akses perpustakaan lengkap sumber daya kesehatan mental, termasuk makalah penelitian, artikel, dan PDF untuk membantu
            Anda memahami berbagai gangguan dan cara mengelolanya secara efektif.</li>
-          <li><strong>Community Support:</strong> Berkomunikasi dengan orang-orang yang memahami perjalanan Anda, berbagi pengalaman, dan menawarkan dukungan sebaya dalam ruang yang aman dan rahasia.</li>
+           <li><strong>Acara:</strong> Ikuti acara-acara terkait kesehatan mental yang ada di Indonesia</li>
+          <li><strong>Dukungan Komunitas:</strong> Berkomunikasi dengan orang-orang yang memahami perjalanan Anda, berbagi pengalaman, dan menawarkan dukungan sebaya dalam ruang yang aman dan rahasia.</li>
         </ul>
         <p>
-          Our goal is to help you not only understand your mental health but also to take the necessary steps to improve it,
-          with the support of experts and technology. <strong>HaloSani</strong> is here to guide you towards a balanced, healthy,
-          and fulfilled life.
+    Tujuan kami adalah membantu Anda tidak hanya memahami kesehatan mental Anda, tetapi juga mengambil langkah-langkah yang diperlukan untuk memperbaikinya, dengan dukungan para ahli dan teknologi. 
+    <strong>HaloSani</strong> hadir untuk membimbing Anda menuju kehidupan yang seimbang, sehat, dan terpenuhi.
         </p>
       </div>
 
