@@ -15,14 +15,13 @@ function Intro() {
         <strong>HaloSani</strong> adalah teman terpercaya Anda dalam perjalanan menuju kesehatan mental yang lebih baik.
         </p>
         <p>
-          <strong>HaloSani</strong> offers a variety of tools and resources to help you stay informed and supported:
+          <strong>HaloSani</strong>menyediakan berbagai alat dan sumber daya untuk membantu Anda tetap terinformasi dan didukung:
         </p>
         <ul>
-          <li><strong>Mental Health Tracking:</strong> Keep track of your mood, progress, and mental health status with personalized tracking features.</li>
-          <li><strong>AI-based NLP Chatbot:</strong> Consult with an AI-driven chatbot that can provide instant support and advice for your mental health concerns.</li>
-          <li><strong>Mental Health Disorder Library:</strong> Access a comprehensive library of mental health resources, including research papers, articles, and PDFs to help you understand different disorders and how to manage them effectively.</li>
-          <li><strong>Expert Mentorship:</strong> Connect with professional mentors who can offer expert advice and guidance tailored to your needs.</li>
-          <li><strong>Community Support:</strong> Join a community of people who understand your journey, share experiences, and offer peer support in a safe and confidential space.</li>
+          <li><strong>AI-based NLP Chatbot:</strong> Konsultasikan dengan chatbot berbasis AI yang dapat memberikan dukungan dan saran instan untuk masalah kesehatan mental Anda.</li>
+          <li><strong>Mental Health Disorder Library:</strong> Akses perpustakaan lengkap sumber daya kesehatan mental, termasuk makalah penelitian, artikel, dan PDF untuk membantu
+           Anda memahami berbagai gangguan dan cara mengelolanya secara efektif.</li>
+          <li><strong>Community Support:</strong> Berkomunikasi dengan orang-orang yang memahami perjalanan Anda, berbagi pengalaman, dan menawarkan dukungan sebaya dalam ruang yang aman dan rahasia.</li>
         </ul>
         <p>
           Our goal is to help you not only understand your mental health but also to take the necessary steps to improve it,
