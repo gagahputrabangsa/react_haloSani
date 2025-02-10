@@ -147,7 +147,7 @@ function Home() {
                                         <li className="nav-item">
                                             <a
                                                 className="nav-link"
-                                                href="http://localhost:3000/mentor"
+                                                href="https://1067-103-49-68-8.ngrok-free.app "
                                         
                                                 rel="noopener noreferrer"
                                             >
