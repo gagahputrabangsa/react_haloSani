@@ -1,46 +1,44 @@
 [
-    {
-      "id": 1,
-      "title": "Kesehatan Mental I",
-      "description": "Overview of anxiety-related mental health issues.",
-      "pdfLink": "books/Kesehatan Mental I.pdf",
-      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 2,
-      "title": "Gangguan Bipolar dan Psikoedukasi",
-      "description": "Overview of anxiety-related mental health issues.",
-      "pdfLink": "books/Gangguan Bipolar dan Psikoedukasi.pdf",
-      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 3,
-      "title": "Psikologi Konseling",
-      "description": "Overview of anxiety-related mental health issues.",
-      "pdfLink": "books/Psikologi Konseling.pdf",
-      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 4,
-      "title": "Topik Kesehatan Mental",
-      "description": "Overview of anxiety-related mental health issues.",
-      "pdfLink": "books/Topik Kesehatan Mental.pdf",
-      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 5,
-      "title": "I Want to Die but I Want to Eat Tteokbokki",
-      "description": "Overview of anxiety-related mental health issues.",
-      "pdfLink": "books/i-want-to-die-but-i-want-to-eat-tteokbokki.pdf",
-      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 6,
-      "title": "Attention Deficit Hyperactivity Disorder (ADHD)",
-      "description": "Overview of anxiety-related mental health issues.",
-      "pdfLink": "books/Attention Deficit Hyperactivity Disorder (ADHD).pdf",
-      "image": "https://images.pexels.com/photos/3656855/pexels-photo-3656855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    }
-
-  ]
-  
+  {
+    "id": 1,
+    "title": "Kesehatan Mental I",
+    "description": "Buku ini membahas konsep dasar kesehatan mental serta berbagai faktor yang memengaruhi kesejahteraan psikologis individu.",
+    "pdfLink": "books/Kesehatan Mental I.pdf",
+    "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Gangguan Bipolar dan Psikoedukasi",
+    "description": "Panduan mengenai gangguan bipolar, termasuk gejala, penyebab, serta pentingnya psikoedukasi bagi penderita dan keluarganya.",
+    "pdfLink": "books/Gangguan Bipolar dan Psikoedukasi.pdf",
+    "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Psikologi Konseling",
+    "description": "Penjelasan tentang prinsip dan teknik dalam psikologi konseling untuk membantu individu mengatasi masalah psikologis dan emosional.",
+    "pdfLink": "books/Psikologi Konseling.pdf",
+    "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Topik Kesehatan Mental",
+    "description": "Berbagai topik penting dalam kesehatan mental, mulai dari stres, depresi, kecemasan, hingga strategi penanganannya.",
+    "pdfLink": "books/Topik Kesehatan Mental.pdf",
+    "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "I Want to Die but I Want to Eat Tteokbokki",
+    "description": "Sebuah buku memoar yang menggambarkan perjalanan penulis dalam menghadapi depresi dan perjuangannya menemukan kebahagiaan.",
+    "pdfLink": "books/i-want-to-die-but-i-want-to-eat-tteokbokki.pdf",
+    "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Attention Deficit Hyperactivity Disorder (ADHD)",
+    "description": "Penjelasan mengenai ADHD, termasuk gejala, dampak pada kehidupan sehari-hari, serta strategi untuk mengelolanya.",
+    "pdfLink": "books/Attention Deficit Hyperactivity Disorder (ADHD).pdf",
+    "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg"
+  }
+]
